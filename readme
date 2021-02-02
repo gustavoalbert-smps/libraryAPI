@@ -1,0 +1,30 @@
+# LibraryAPI
+
+pacotes necessários no seu computador:
+rest_framework
+django
+django_filters
+django swagger
+JWT Authentication
+crispy_forms
+
+api-documentation/ (documentação swagger da API)
+login/token/ (obter Token de acesso)
+login/token/refresh/ (obter Token atualizado)
+users/ (Lista de usuários)
+books/ (Lista de livros)
+bookscategory/ (Lista de Categoria de livro)
+author-list/ (Lista de autores)
+librarians/ (lista de bibliotecarios)
+client-list/ (Lista de clientes)
+rents/ (Lista de alugueis)
+
+Descrição:
+Um modelo de négocios de uma Biblioteca, compostos pelas entidades Livros, Categoria de Livros, Autores, Clientes, Bibliotecarios(as) e Aluguel. Tem como principal objetivo
+e funcionalidade a de fazer alugueis de livros e controlar estas informações.
+
+Link do vídeo: 
+
+Obs: professor o senhor vai poder ver no meu vídeo que quando eu vou tentar enviar uma requisição de POST para aluguel consta como não autorizado, mas para as outras funções
+funciona normalmente o token. Fiz o teste sem o JWT e minha API funciona normalmente e realiza todas as funções incluind a de criar um aluguel de um LIVRO. Se o senhor puder
+realizar um teste pelo insomnia pra sanar minha dúvida se eu estava fazendo a requisição de forma errada.
