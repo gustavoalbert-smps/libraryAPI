@@ -23,7 +23,7 @@ Descrição:
 Um modelo de négocios de uma Biblioteca, compostos pelas entidades Livros, Categoria de Livros, Autores, Clientes, Bibliotecarios(as) e Aluguel. Tem como principal objetivo
 e funcionalidade a de fazer alugueis de livros e controlar estas informações.
 
-Link do vídeo: 
+Link do vídeo: https://youtu.be/t9gZOo_a7wo
 
 Obs: professor o senhor vai poder ver no meu vídeo que quando eu vou tentar enviar uma requisição de POST para aluguel consta como não autorizado, mas para as outras funções
 funciona normalmente o token. Fiz o teste sem o JWT e minha API funciona normalmente e realiza todas as funções incluind a de criar um aluguel de um LIVRO. Se o senhor puder
